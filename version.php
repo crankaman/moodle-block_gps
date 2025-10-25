@@ -25,6 +25,7 @@ defined('MOODLE_INTERNAL') || die;
 
 $plugin->version  = 2024121400;
 $plugin->requires = 2014051200;  // Requires Moodle 2.7.
+$plugin->supported = [400, 501];
 $plugin->component = 'block_gps';
 $plugin->release = '2.6';
 $plugin->maturity = MATURITY_STABLE;
